@@ -5,7 +5,7 @@ fp2=open('Book2.txt')
 file2=fp2.read()
 fp3=open('Book3.txt')
 file3=fp3.read()
-def test_words(book):
+def sorted_words(book):
 	count=0
 	mydict=dict()
 	book_list=[]
@@ -26,7 +26,7 @@ def test_words(book):
 
 
 
-print("",test_words(file1)) 
-print("",test_words(file2)) 
-print("",test_words(file3)) 
+print("",sorted_words(file1)) 
+print("",sorted_words(file2)) 
+print("",sorted_words(file3)) 
 
